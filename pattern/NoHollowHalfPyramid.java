@@ -10,8 +10,7 @@ public class NoHollowHalfPyramid {
 				}
 				else {
 					System.out.print("  ");
-				}
-				
+				}	
 			}
 			System.out.println();
 		}

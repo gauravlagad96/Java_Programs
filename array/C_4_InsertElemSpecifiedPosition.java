@@ -19,15 +19,15 @@ public class C_4_InsertElemSpecifiedPosition {
 		for (int i = 0; i < arr.length - 1; i++) {
 			System.out.print(arr[i] + "  ");
 		}
-
+		//logic of inserting no at specified position.
 		System.out.println("\nEnter the index and elements ! ");
 		int index = sc.nextInt();
 		int elem = sc.nextInt();
 
 		for (int j = arr.length - 1; j > index; j--) {
 			arr[j] = arr[j - 1];
-
 		}
+		
 		for (int i = 0; i < arr.length; i++) {
 			if (i == index) {
 				arr[i] = elem;

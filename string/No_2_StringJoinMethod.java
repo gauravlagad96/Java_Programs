@@ -2,7 +2,7 @@ package com.string;
 
 import java.util.Vector;
 
-public class N_1_StringJoinMethod {
+public class No_2_StringJoinMethod {
 	public static void main(String[] args) {
 		// Step 1: Create a Vector of strings
 		Vector<String> fruits = new Vector<>();

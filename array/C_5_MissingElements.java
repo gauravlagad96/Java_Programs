@@ -22,7 +22,6 @@ public class C_5_MissingElements {
 
 		// Find missing elements
 		for (int i = 0; i < arr.length - 1; i++) {
-
 			// Check for gaps between consecutive elements
 			for (int j = arr[i] + 1; j < arr[i + 1]; j++) { // arr[i]+1=11+1 (arr[0]) && arr[i+1]=arr[1]
 				System.out.print(j + " ");

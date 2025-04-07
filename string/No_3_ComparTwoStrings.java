@@ -1,7 +1,7 @@
 package com.string;
 
 //Write a JAVA program to compare two strings
-public class ComparTwoStrings {
+public class No_3_ComparTwoStrings {
 
 	public static void main(String[] args) {
 		String str1 = "hello";

@@ -1,4 +1,4 @@
-package com.jdk8.stream;
+package com.leetcode.jdk8.stream;
 
 import java.util.Arrays;
 import java.util.List;

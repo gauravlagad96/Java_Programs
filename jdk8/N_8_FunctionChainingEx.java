@@ -1,4 +1,4 @@
-package com.jdk8;
+package com.leetcode.jdk8;
 
 import java.util.function.Function;
 
@@ -14,5 +14,4 @@ public class N_8_FunctionChainingEx {
 		System.out.println(result1);
 		System.out.println(result2);
 	}
-
 }

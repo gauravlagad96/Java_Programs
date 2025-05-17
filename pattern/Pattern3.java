@@ -1,4 +1,4 @@
-package com.pattern;
+package com.leetcode.pattern;
 
 //8*9
 public class Pattern3 {

@@ -1,4 +1,4 @@
-package com.jdk8.stream;
+package com.leetcode.jdk8.stream;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,6 +6,7 @@ import java.util.stream.Stream;
 
 public class StreamEx {
 	public static void main(String[] args) {
+		
 		// jdk 8 feature
 		// process collections of data in a functional and declarative manner
 		// simplify data processing
@@ -21,6 +22,7 @@ public class StreamEx {
 				i++;
 		}
 		 System.out.println("Total odd no is : " + i); */
+		
 		System.out.println(no.stream().filter(x -> x % 2 == 0).count());
 
 		//different ways to create stream();
@@ -31,15 +33,12 @@ public class StreamEx {
 		//2. from Arrays
 		String[] arr= {"a","b","c","d"};
 		Stream<String> stream2=Arrays.stream(arr);
-		
-		
+				
 		//3.Using Stream.of()
 		Stream<String> stream3=Stream.of("a","b","c","d");
-		
 		
 		//4.Infinite Streams
 		Stream<Integer> generate=Stream.generate(()->1);
 		Stream.iterate(1, x->x+1);
 	}
-
 }

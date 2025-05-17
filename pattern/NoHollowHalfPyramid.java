@@ -1,4 +1,4 @@
-package com.pattern;
+package com.leetcode.pattern;
 
 public class NoHollowHalfPyramid {
 	public static void main(String[] args) {

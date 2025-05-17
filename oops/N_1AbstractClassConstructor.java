@@ -1,4 +1,4 @@
-package com.oops;
+package com.leetcode.oops;
 
 abstract class Animal {
     String name;

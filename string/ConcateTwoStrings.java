@@ -1,4 +1,4 @@
-package com.string;
+package com.leetcode.string;
 
 //Write a JAVA program to concatenate two strings.
 public class ConcateTwoStrings {
@@ -12,8 +12,8 @@ public class ConcateTwoStrings {
 		String str1 = "Hello";
 		String str2 = "World";
 		// Concatenating using concat() method
-		String result = str1.concat(" "+str2);
+		String result = str1.concat(" " + str2);
 		System.out.println(result); // Output: Hello World
-		
+
 	}
 }

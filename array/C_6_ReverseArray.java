@@ -1,4 +1,4 @@
-package com.array;
+package com.leetcode.array;
 
 // WAP to reverse an array
 public class C_6_ReverseArray {

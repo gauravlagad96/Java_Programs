@@ -1,4 +1,4 @@
-package com.jdk8;
+package com.leetcode.jdk8;
 
 import java.util.function.Predicate;
 

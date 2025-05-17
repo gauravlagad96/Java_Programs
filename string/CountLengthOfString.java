@@ -1,4 +1,4 @@
-package com.string;
+package com.leetcode.string;
 
 import java.util.Scanner;
 
@@ -13,14 +13,14 @@ public class CountLengthOfString {
 
 		int count = 0;
 
-//		for(int i=0;i<name.length();i++) {
-//			count++;
-//		}
+		for(int i=0;i<name.length();i++) {
+			count++;
+		}
 		
-		for (char c : name.toCharArray()) {
-			System.out.print(c); // print the input string
-            count++;    // Increment length for each character
-        }
+//		for (char c : name.toCharArray()) {
+//			System.out.print(c); // print the input string
+//            count++;    // Increment length for each character
+//        }
 
 
 		System.out.println("\nThe length of String is : " + count);

@@ -1,4 +1,4 @@
-package com.pattern;
+package com.leetcode.pattern;
 
 //6*6
 public class InvertedHalfPyramid {

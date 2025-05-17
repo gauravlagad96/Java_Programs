@@ -1,4 +1,4 @@
-package com.string;
+package com.leetcode.string;
 
 //Write a JAVA program to convert uppercase string to lowercase.
 public class ConvertUpperString {
@@ -16,5 +16,4 @@ public class ConvertUpperString {
 			System.out.print(ch);
 		}
 	}
-
 }

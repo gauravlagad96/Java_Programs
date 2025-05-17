@@ -1,4 +1,4 @@
-package com.string;
+package com.leetcode.string;
 
 import java.util.Vector;
 

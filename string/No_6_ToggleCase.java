@@ -1,6 +1,6 @@
-package com.string;
+package com.leetcode.string;
 
-public class ToggleCase {
+public class No_6_ToggleCase {
     public static void main(String[] args) {
         String input = "GuRu99";
         StringBuilder toggled = new StringBuilder();
@@ -20,7 +20,6 @@ public class ToggleCase {
             // Append the toggled character
             toggled.append(ch);
         }
-
         System.out.println("Original String: " + input);
         System.out.println("Toggled String: " + toggled.toString());
     }

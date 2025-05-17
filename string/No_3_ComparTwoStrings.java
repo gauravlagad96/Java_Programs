@@ -1,4 +1,4 @@
-package com.string;
+package com.leetcode.string;
 
 //Write a JAVA program to compare two strings
 public class No_3_ComparTwoStrings {

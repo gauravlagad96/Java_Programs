@@ -1,9 +1,5 @@
 package com.leetcode.array;
 
-import java.util.LinkedList;
-
-import javax.sound.sampled.ReverbType;
-
 class Solution5 {
 	public int removeElement(int[] nums, int val) {
 		int k = 0; // Pointer for placing non-val elements

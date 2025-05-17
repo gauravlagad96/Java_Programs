@@ -1,4 +1,4 @@
-package com.string;
+package com.leetcode.string;
 
 public class CountDigitAlphSpecialChar {
 
@@ -15,6 +15,7 @@ public class CountDigitAlphSpecialChar {
 			if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
 				alphabets++;
 			}
+
 			// Check if the character is a digit
 			else if (ch >= '0' && ch <= '9') {
 				digits++;

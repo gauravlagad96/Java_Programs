@@ -1,4 +1,4 @@
-package com.basic;
+package com.leetcode.basic;
 
 public class AddCommandLineArgApp {
 	public static void main(String x[]) {

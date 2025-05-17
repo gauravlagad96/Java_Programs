@@ -1,4 +1,4 @@
-package com.jdk8;
+package com.leetcode.jdk8;
 
 public class N_1_LambdaEx {
 	public static void main(String[] args) {

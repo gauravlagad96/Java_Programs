@@ -1,4 +1,4 @@
-package com.pattern;
+package com.leetcode.pattern;
 
 //5*5
 public class NoInvertedHalfPyramid {

@@ -1,4 +1,4 @@
-package com.string;
+package com.leetcode.string;
 
 public class No_1_RemoveCharFromString {
 

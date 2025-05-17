@@ -1,4 +1,4 @@
-package com.pattern;
+package com.leetcode.pattern;
 
 //3*5
 public class HollowRectangle {

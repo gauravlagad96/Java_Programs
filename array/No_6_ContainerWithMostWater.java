@@ -22,7 +22,6 @@ class Solution6 {
 			}
 			// System.out.println("------------------" + maxArea);
 		}
-
 		return maxArea;
 	}
 }

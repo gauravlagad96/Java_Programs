@@ -1,4 +1,4 @@
-package com.string;
+package com.leetcode.string;
 
 //Write a JAVA program to copy one string to another string.
 public class CopyString {

@@ -15,7 +15,6 @@ class Solution4 {
 		for (int i = 0; i < nums.length; i++) {
 			set.add(nums[i]);
 		}
-   
 		//second loop for rewriting the set into nums;
 		int i = 0;
 		for (int num : set) {
@@ -25,7 +24,7 @@ class Solution4 {
 	}
 }
 
-public class No_4_RemoveDuplicate {
+public class No_4_RemoveDuplicateUsingHashSet {
 	public static void main(String[] args) {
 		Solution4 solution4 = new Solution4();
 		int arr[]= {11,22,33,33,44,44,55,55}; //ER:5

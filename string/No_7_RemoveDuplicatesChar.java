@@ -1,9 +1,9 @@
 package com.leetcode.string;
 
-public class RemoveDuplicates {
+public class No_7_RemoveDuplicatesChar {
 
 	public static void main(String[] args) {
-		
+
 		String str = "iamfinefine";
 		String result = "";
 
@@ -14,17 +14,17 @@ public class RemoveDuplicates {
 
 			for (int j = 0; j < result.length(); j++) {
 
-				if (current == result.charAt(j) ) {
+				if (current == result.charAt(j)) {
 					con = true;
 					break;
 				}
 			}
-			
-			if(!con) {
-				result+=current;
+
+			if (!con) {
+				result += current;
 			}
 		}
-		
+
 		System.out.println("original String : " + str);
 		System.out.println("After remove duplicate : " + result);
 	}

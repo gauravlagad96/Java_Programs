@@ -13,7 +13,7 @@ class Solution {
 			no1 = no1 * 10 + num2.charAt(i) - 48;
 		}
 
-		System.out.println(no + "  " + no1);
+		//System.out.println(no + "  " + no1);
 		no = no * no1;
 		return Integer.toString(no);
 	}
@@ -23,7 +23,7 @@ public class No_1_MultyplyString {
 	public static void main(String[] args) {
 		Solution s1 = new Solution();
 
-		String multiply = s1.multiply("106", "15");
+		String multiply = s1.multiply("106", "10");
 		System.out.println(multiply);
 	}
 }

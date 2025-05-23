@@ -1,42 +1,43 @@
 package com.leetcode.array;
 
-class Solution5 {
-	public int removeElement(int[] nums, int val) {
-		int k = 0; // Pointer for placing non-val elements
-
-		for (int i = 0; i < nums.length; i++) {
-			if (nums[i] != val) {
-				nums[k] = nums[i];
-				k++;
-			}
-		}
-		return k;
-	}
-}
+import java.util.Iterator;
+import java.util.Scanner;
 
 public class No_5_RemoveElement {
 
 	public static void main(String[] args) {
+		int arr[] = new int[5];
+		Scanner sc = new Scanner(System.in);
 
-		Solution5 solution5 = new Solution5();
-		int arr[] = { 1, 1, 2, 4, 7 }; // 3
-		int removeElement = solution5.removeElement(arr, 1);
-		System.out.println(removeElement);
+		System.out.println("Enter 5 elements");
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = sc.nextInt();
+		}
+
+		System.out.println("The given elements are : ");
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}
+
+		System.out.println("\nEnter which element you want to remove in array : ");
+		int element = sc.nextInt();
+
+		int uniqueArr[] = new int[5];
+		int j = 0;
+		int count = 0;
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] != element) {
+				uniqueArr[j] = arr[i];
+				j++;
+				count++;
+			}
+		}
+
+		System.out.println("Array After removed the specific elemnts");
+		for (int i = 0; i < count; i++) {
+			System.out.print(uniqueArr[i] + " ");
+		}
+
 	}
 
 }
-
-/*
- * second way import java.util.LinkedList;
- * 
- * class Solution { public int removeElement(int[] nums, int val) {
- * LinkedList<Integer> list = new LinkedList<>();
- * 
- * // Add elements to LinkedList if they're not equal to val for (int num :
- * nums) { if (num != val) { list.add(num); } }
- * 
- * // Copy elements back to nums array (optional, depending on requirements) int
- * k = list.size(); for (int i = 0; i < k; i++) { nums[i] = list.get(i); }
- * 
- * return k; } }
- */
